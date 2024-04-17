@@ -1,0 +1,51 @@
+html {
+    background-color: beige;
+}
+body {
+    background-color: white; border: 1px solid white;
+    margin: auto; width: 370px; height: 500px;
+    margin-top: 50px; border-radius: 7px; text-align: center;
+    margin-top: 7px;
+    margin: auto;
+}
+p { text-align: center;}
+h2 {
+    color: black; margin: auto;
+}
+h4 { 
+    color: blue; text-align: left;
+    
+}
+.spot {
+    color: blue; margin-left: 14px;
+}
+.plain{ 
+    color: white; background-color: blue; text-align: center;
+    margin-top: 10px; font-weight: bold;
+}
+.pin {
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    width: 138px;
+    height: 40px; border-radius: 10px;
+    margin-left: 10px;
+}
+.tip { 
+    margin-left: 25px;
+}
+button { 
+    border: 1px solid black;
+    background-color: white;
+width: 290px;
+height: 40px; border-radius: 10px;}
+img {
+    height: 13px;
+    width: 13px;
+}
+.top {
+    margin-left: 150px;
+}
+.plus {
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+.column {
+    resize: both;
+    overflow: auto;
+    border: 2px solid red;
+    width: 500px;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 23px;
+    column-rule: 3px red dotted;
+    margin-right: 6px;
+}

@@ -1,0 +1,22 @@
+.btn-group .button {
+    background-color: green;
+    color: white;
+    border-bottom: 0.1px solid green;
+    display: block;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+}
+.disabled {
+    opacity: 0.6;
+    cursor:not-allowed;
+}
+.btn-group .button:not(:last-child) {
+    border-bottom: none;
+}
+.disabled:hover {
+    opacity: 1;
+}

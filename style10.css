@@ -1,0 +1,46 @@
+html{
+    background-color: antiquewhite;
+}
+div{
+    width: 300px;
+    height: 550px;
+    background-color: red;
+    border: 1px solid red;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+h1{
+    color: white;
+}
+.container{
+    display: flexbox;
+    float: left;
+}
+p{ margin-left: 400px;}
+#pig{ width: 520px;
+      height: 550px;
+    background-color: white;
+     color: red;
+    border: none; border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;}
+  .tin{color: red;
+       text-align: center;} 
+       span{ margin-left: 5px;}  
+  .top{width: 180px; height: 40px; background-color: white;
+     border-radius: 8px; margin-right: 5px;
+    color: red; border-color: red; box-shadow: 0 0 8px red;
+    border: none; text-align: center;
+    margin-left:40px; margin-top: 30px;}
+    .tip{width: 405px; height: 40px; background-color: white;
+        box-shadow: 0 0 8px red;
+        border: none; text-align: center;
+        border-radius: 8px; color: red;
+    margin-top: 30px; margin-left: 40px;}
+    .submit{background-color: red; border-radius: 20px; 
+    color: white; width: 120px; height: 35px ;
+    margin-top: 30px; border: none; margin-left: 170px;}
+    img{width: 30px;}
+    .pet{width: 280px; height: 40px; margin-top: 10px;
+        border-radius: 20px; border: 1px solid white;
+        background-color: red; color: white;}
+        p{color: white;}

@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+.container .btn {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    text-align: center;
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translate(-50% -50%);
+    font-size: 27px;
+}
+.container .btn:hover {
+    background-color: black;
+    color:white ;
+}

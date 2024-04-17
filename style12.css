@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.jenny-container,jenny-green{
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+}
+.jenny-row-padding{
+    float: left;;
+}
+.column1of3{
+  float: left; width: 250px; margin: 10px;
+}
+.column2of3{
+    float: left; width: 250px; margin: 10px;
+}
+.column3of3{
+    float: left; width: 250px; margin: 10px;
+}

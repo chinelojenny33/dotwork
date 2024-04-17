@@ -1,0 +1,22 @@
+html{background-color: aqua;}
+body{width: 450px; height: 600px; margin: auto;
+border: 2px solid black; padding-left:10px;
+border-radius: 20px;}
+h1{text-align: center; text-decoration: underline;}
+p{font-weight: bold;}
+input{height: 25px; width:265px;}
+span{margin-left: 40px;}
+.title{float: left; width: 100px;
+  text-align: right;}
+  .e-mail{margin-left: 70px;}
+  .birth{margin-left: 25px;}
+  .password{margin-left: 50px;}
+.mobile{margin-left: 70px;}  
+.address{width:50px; padding-top:40px; margin-left:60px;}
+textarea{width:270px; height: 80px;}
+button{border-radius: 50%; width: 15px; 
+height: 15px; margin-left: 25px; background-color: white;
+border: 1px solid black;}
+.pick{width: 65px; border-radius: 2px; height: 25px;}
+.object{width: 65px; border-radius: 2px; height: 25px;}
+.pork{margin-left: 110px;}

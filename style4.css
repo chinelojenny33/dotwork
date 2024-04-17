@@ -1,0 +1,16 @@
+h1,h2,h3{color: black; background-color: aquamarine;
+text-align: center;}
+.column1of3{float: left; width: 250px; margin: 10px;}
+.column2of3{float: left ; width:180px; margin:10px;}
+.column3of3{float: left; width:120px; margin: 10px;}
+ol{list-style-type:upper-alpha;}
+ul{list-style-type: square;}
+div {
+    justify-content: center; border: 2px solid black;
+    background-image: url(images/butterfly-flower.jpg), url(images/paper.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+body {
+    margin: auto;
+}

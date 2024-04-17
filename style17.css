@@ -1,0 +1,6 @@
+p {
+    border: 20px solid transparent;
+    padding: 10px;
+    border-image: url(images/border.png) 30% round;
+    text-align: center;
+}

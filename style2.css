@@ -1,0 +1,17 @@
+body{width: 375px; height: 390px; background-color:transparent;
+    margin-top: 80px; border-radius: 10px; padding: 20px;
+    margin: auto;}
+html{background-color: antiquewhite; opacity: 0.7;}
+html:hover{
+    opacity: 1.0;
+}
+h1{text-align: center; color: rgb(130, 238, 146);
+text-decoration: underline;
+}
+li{list-style-type:square; }
+p{font-size: 48px;}
+ ul{color: rgb(130, 238, 132);}
+ ::marker {
+    color: red;
+    font-size: 23px;
+ }

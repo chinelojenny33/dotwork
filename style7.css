@@ -1,0 +1,12 @@
+html{background-color: black;}
+button{background: transparent; border: 1px solid white;
+ border-radius: 0.6rem; font-size: 17px;
+font-weight: 400; margin: auto; padding: 20px 40px;
+text-align: center; color: greenyellow;
+font-family: Pangolin; cursor: pointer;
+display: flex; justify-content: center;
+margin-top: 250px;}
+button:hover{background-color: deeppink;
+box-shadow:0 0 30px deeppink, 0 0 40px deeppink,
+0 0 40px deeppink; border: none;}
+.title{float: left; margin-right: 10px; text-align: right;}

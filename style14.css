@@ -1,0 +1,19 @@
+table {
+    width: 800px; border: 1px solid black; height: 400px;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background-color:lightblue;
+}
+td {
+    text-align: center;
+}
+tr:nth-child(odd):hover {
+    background-color: aqua;
+}
+table, tr, td {
+    border: 1px solid black;
+}
+th {
+    font-variant: small-caps;
+}

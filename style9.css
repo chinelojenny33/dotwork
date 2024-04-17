@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+header{
+    background-color:black;
+     padding: 2px;
+     text-align: center;
+     color: white;
+    }
+aside{
+    background-color: deeppink; 
+    padding: 2px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: antiquewhite;
+    flex-grow: 1;
+    padding: 1rem; 
+}
+footer{
+    background-color: black;
+     padding: 2px;
+    color: white;
+    }
+   .tip{
+        display: inline;
+        margin-right: 7px;
+    }

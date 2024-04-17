@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Multiple Background</title>
+        <style>
+            div {
+                width: 300px;
+                height: 200px;
+                padding: 35px;
+                border: 5px solid currentcolor;
+                color: black;
+                background-color:red;
+                position: relative;
+                animation-name: boom;
+                animation-duration: 4s;
+                animation-delay: -2s;
+                animation-iteration-count: 2;
+                animation-direction: alternate-reverse;
+            }
+            @keyframes boom {
+                0% {background-color: red; left:0px; top:0px;}
+                25% {background-color: yellow; left:200px; top:0px;}
+                50% {background-color: aqua; left:200px; top:200px;}
+                75% {background-color: blue; left:0px; top:200px;}
+                100% {background-color: violet; left:0px; top:0px;}
+            }
+            
+            html {
+                margin: auto;
+            }
+            h1 {
+                text-align: center;
+            }
+            p {
+                width: 200px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border: 1px solid black;
+            }
+            p:hover {
+                overflow: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>FRONTEND DEVELOPMENT</h1>
+            Frontend Engineering comprises mainly of HTML, CSS and 
+            JAVASCRIPT with a knowledge of React and firebase.
+            With these skills, one can land himself a well paying job
+            in the tech field.
+        </div>
+        <p>This is my first text-overflow paragraph that has been put
+            for people to see.
+        </p>
+    </body>
+</html>

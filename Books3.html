@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Transition</title>
+        <style>
+            input[type=text] {
+                width: 230px;
+                margin: 8px 0;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                background-color: white;
+                background-image: url(images/search.png);
+                background-repeat: no-repeat;
+                transition: width 0.4s ease-in-out;
+                padding-left: 50px;
+                border-radius: 4px;
+                background-position: 10px 2px;
+                font-size: 36px;
+                height:90px ;
+                
+            }
+            input[type=text]:focus {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Animate the width of search input</h2>
+        <form>
+        <input type="text" name="search" placeholder="search...">
+        </form>
+    </body>
+</html>

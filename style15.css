@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 3px;
+    width: 110px;
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    overflow: auto;
+    height: 422px;
+}
+li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a {
+    text-decoration: none;
+    color: blue;
+}
+.active {
+    background-color: greenyellow;
+    color: blue;
+}
+.active:hover {
+    background-color: blueviolet;
+    color: white;
+}

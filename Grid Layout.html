@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Grid Layout</title>
+        <style>
+            .item1 { grid-area: header;}
+            .item2 { grid-area: menu;}
+            .item3 {grid-area: main;}
+            .item4 {grid-area: right;}
+            .item5 {grid-area: footer;}
+
+            .grid-container {
+                display: grid;
+                grid-template-areas: 
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+            .grid-container > div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+            .grid-holder {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: 120px auto auto auto;
+                background-color: #2196F3;
+                padding: 10px;
+                gap: 40px 30px;
+            }
+            .grid-picker, .grid-picker1, .grid-picker2 {
+                background-color: rgba(255, 255, 255, 0.8);
+                padding: 20px;
+                border: none;
+                font-size: 30px;
+                text-align: center;
+            }
+            .grid-picker1 {
+                grid-column: 1 / span 3;
+            }
+            .grid-picker2 {
+                grid-row: 2 / span 2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grid Layout</h1>
+        <p>The CSS Grid Layout Module offers a grid-based layout nsystem
+            with rows and columns. </p>
+        
+        <div class="grid-container">
+            <div class="item1">Header</div>
+            <div class="item2">Menu</div>
+            <div class="item3">Main</div>
+            <div class="item4">Right</div>
+            <div class="item5">Footer</div>
+        </div>
+        <br>
+        <div class="grid-holder">
+            <div class="grid-picker1">1</div>
+            <div class="grid-picker2">2</div>
+            <div class="grid-picker">3</div>
+            <div class="grid-picker">4</div>
+            <div class="grid-picker">5</div>
+            <div class="grid-picker">6</div>
+            <div class="grid-picker">7</div>
+            <div class="grid-picker">8</div>
+            <div class="grid-picker">9</div>
+            <div class="grid-picker">10</div>
+            <div class="grid-picker">11</div>
+            <div class="grid-picker">12</div>
+        </div>
+    </body>
+</html>
